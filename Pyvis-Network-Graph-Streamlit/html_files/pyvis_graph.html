@@ -1,0 +1,116 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 400px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "Nidhir", "label": "Nidhir", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "four years", "label": "four years", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "all myself", "label": "all myself", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a special interest", "label": "a special interest", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "utmost importance", "label": "utmost importance", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "multiple research projects", "label": "multiple research projects", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "several neural network algorithms", "label": "several neural network algorithms", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "an extra - curricular automated systems research project", "label": "an extra - curricular automated systems research project", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "node specialization", "label": "node specialization", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "other interests", "label": "other interests", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a ABC", "label": "a ABC", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "multi - agent automated distribution systems", "label": "multi - agent automated distribution systems", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the domain", "label": "the domain", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the lookout", "label": "the lookout", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "theory", "label": "theory", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "ABC", "label": "ABC", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the curriculum", "label": "the curriculum", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "innovation", "label": "innovation", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the University", "label": "the University", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the broad spectrum", "label": "the broad spectrum", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a two - year Masters Degree program", "label": "a two - year Masters Degree program", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "ground - breaking research work", "label": "ground - breaking research work", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the flexibility", "label": "the flexibility", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the rapidly flourishing job market", "label": "the rapidly flourishing job market", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "professional paths", "label": "professional paths", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "experiences", "label": "experiences", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "this application", "label": "this application", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a hope", "label": "a hope", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "new ideas", "label": "new ideas", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "XYZ University", "label": "XYZ University", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a Bachelor \u2019s degree", "label": "a Bachelor \u2019s degree", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a stellar record", "label": "a stellar record", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "support vector machine algorithms", "label": "support vector machine algorithms", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "neural networks", "label": "neural networks", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "architectures", "label": "architectures", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the learning rates", "label": "the learning rates", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a deep learning distributed architecture", "label": "a deep learning distributed architecture", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "extremely modest networking requirements", "label": "extremely modest networking requirements", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the load", "label": "the load", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "overall system performance", "label": "overall system performance", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the same time", "label": "the same time", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the computation time", "label": "the computation time", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "advanced error handling", "label": "advanced error handling", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "evolutionary methods", "label": "evolutionary methods", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "intelligent recognition", "label": "intelligent recognition", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "even new techniques", "label": "even new techniques", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the performance", "label": "the performance", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Artificial Intelligence", "label": "Artificial Intelligence", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "technology", "label": "technology", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "peer group", "label": "peer group", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "lmn", "label": "lmn", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "exemplary work", "label": "exemplary work", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "it", "label": "it", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a great opportunity", "label": "a great opportunity", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Professors", "label": "Professors", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "research", "label": "research", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "fruition", "label": "fruition", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "any field", "label": "any field", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the depth", "label": "the depth", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "applications", "label": "applications", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the realm", "label": "the realm", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Computer Science", "label": "Computer Science", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "a flexible approach", "label": "a flexible approach", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the areas", "label": "the areas", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "professionals", "label": "professionals", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "expertise", "label": "expertise", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "advanced concepts", "label": "advanced concepts", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "Artificial intelligence", "label": "Artificial intelligence", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the Masters degree", "label": "the Masters degree", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "shape", "label": "shape", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "new and innovative areas", "label": "new and innovative areas", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "the entrepreneurial path", "label": "the entrepreneurial path", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "theories", "label": "theories", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "id": "an impact", "label": "an impact", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "Nidhir", "to": "four years", "weight": 4}, {"from": "Nidhir", "to": "Nidhir", "weight": 3}, {"from": "Nidhir", "to": "all myself", "weight": 5}, {"from": "Nidhir", "to": "a special interest", "weight": 7}, {"from": "Nidhir", "to": "utmost importance", "weight": 9}, {"from": "Nidhir", "to": "multiple research projects", "weight": 2}, {"from": "Nidhir", "to": "several neural network algorithms", "weight": 9}, {"from": "Nidhir", "to": "an extra - curricular automated systems research project", "weight": 6}, {"from": "Nidhir", "to": "node specialization", "weight": 0}, {"from": "Nidhir", "to": "other interests", "weight": 1}, {"from": "Nidhir", "to": "a ABC", "weight": 8}, {"from": "Nidhir", "to": "multi - agent automated distribution systems", "weight": 4}, {"from": "Nidhir", "to": "the domain", "weight": 5}, {"from": "Nidhir", "to": "the lookout", "weight": 6}, {"from": "Nidhir", "to": "theory", "weight": 8}, {"from": "Nidhir", "to": "ABC", "weight": 9}, {"from": "Nidhir", "to": "the curriculum", "weight": 7}, {"from": "Nidhir", "to": "innovation", "weight": 5}, {"from": "Nidhir", "to": "the University", "weight": 3}, {"from": "Nidhir", "to": "the broad spectrum", "weight": 2}, {"from": "Nidhir", "to": "a two - year Masters Degree program", "weight": 0}, {"from": "Nidhir", "to": "ground - breaking research work", "weight": 7}, {"from": "Nidhir", "to": "the flexibility", "weight": 5}, {"from": "Nidhir", "to": "the rapidly flourishing job market", "weight": 5}, {"from": "Nidhir", "to": "professional paths", "weight": 4}, {"from": "Nidhir", "to": "experiences", "weight": 6}, {"from": "Nidhir", "to": "this application", "weight": 4}, {"from": "Nidhir", "to": "a hope", "weight": 9}, {"from": "Nidhir", "to": "new ideas", "weight": 7}, {"from": "XYZ University", "to": "a Bachelor \u2019s degree", "weight": 7}, {"from": "utmost importance", "to": "a stellar record", "weight": 8}, {"from": "multiple research projects", "to": "support vector machine algorithms", "weight": 1}, {"from": "support vector machine algorithms", "to": "neural networks", "weight": 0}, {"from": "several neural network algorithms", "to": "architectures", "weight": 8}, {"from": "architectures", "to": "the learning rates", "weight": 8}, {"from": "an extra - curricular automated systems research project", "to": "a deep learning distributed architecture", "weight": 2}, {"from": "a deep learning distributed architecture", "to": "extremely modest networking requirements", "weight": 9}, {"from": "extremely modest networking requirements", "to": "the load", "weight": 8}, {"from": "node specialization", "to": "overall system performance", "weight": 2}, {"from": "the same time", "to": "the computation time", "weight": 4}, {"from": "multi - agent automated distribution systems", "to": "advanced error handling", "weight": 10}, {"from": "evolutionary methods", "to": "intelligent recognition", "weight": 7}, {"from": "even new techniques", "to": "the performance", "weight": 8}, {"from": "Artificial Intelligence", "to": "the University", "weight": 8}, {"from": "Artificial Intelligence", "to": "technology", "weight": 2}, {"from": "the University", "to": "peer group", "weight": 1}, {"from": "lmn", "to": "exemplary work", "weight": 5}, {"from": "it", "to": "a great opportunity", "weight": 1}, {"from": "a great opportunity", "to": "Professors", "weight": 5}, {"from": "research", "to": "fruition", "weight": 8}, {"from": "any field", "to": "the depth", "weight": 9}, {"from": "applications", "to": "the realm", "weight": 9}, {"from": "Computer Science", "to": "a flexible approach", "weight": 3}, {"from": "ground - breaking research work", "to": "the areas", "weight": 1}, {"from": "the rapidly flourishing job market", "to": "professionals", "weight": 4}, {"from": "professionals", "to": "expertise", "weight": 2}, {"from": "advanced concepts", "to": "Artificial intelligence", "weight": 6}, {"from": "the Masters degree", "to": "professional paths", "weight": 8}, {"from": "the Masters degree", "to": "shape", "weight": 1}, {"from": "new and innovative areas", "to": "the entrepreneurial path", "weight": 1}, {"from": "new ideas", "to": "theories", "weight": 2}, {"from": "theories", "to": "an impact", "weight": 7}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "repulsion": {
+            "centralGravity": 0.33,
+            "damping": 0.95,
+            "nodeDistance": 420,
+            "springConstant": 0.1,
+            "springLength": 110
+        },
+        "solver": "repulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

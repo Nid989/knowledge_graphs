@@ -1,0 +1,99 @@
+index,source,relation,target,POS_tag_relation,POS_tag_source,POS_tag_target,Lemma_relation,relation_ADP,relation_ADV,relation_AUX,relation_NOUN,relation_VERB
+0,The US,has rejected,Russia's demand,"AUX,VERB","DET,PROPN","PROPN,PART,NOUN",have reject,0,0,1,0,1
+1,Russia's demand,bar,its neighbour,NOUN,"PROPN,PART,NOUN","PRON,NOUN",bar,0,0,0,1,0
+2,its neighbour,from,the Nato military alliance,ADP,"PRON,NOUN","DET,PROPN,ADJ,NOUN",from,1,0,0,0,0
+3,the Nato military alliance,amid,warnings,ADP,"DET,PROPN,ADJ,NOUN",NOUN,amid,1,0,0,0,0
+5,Russia,bar from amid might invade,Russia's neighbour,"VERB,ADP,ADP,AUX,VERB",PROPN,"PROPN,PART,NOUN",bar from amid might invade,1,0,1,0,1
+6,State,was giving,Russia,"AUX,VERB",NOUN,PROPN,be give,0,0,1,0,1
+7,Russia,delivered by,the US,"VERB,ADP",PROPN,"DET,PROPN",deliver by,1,0,0,0,1
+9,Russia'Russia's demand,bar,Ukraine,NOUN,"PROPN,PART,NOUN",PROPN,bar,0,0,0,1,0
+11,State,gave,no concessions,VERB,NOUN,"DET,NOUN",give,0,0,0,0,1
+12,no concessions,said of,State,"VERB,ADP","DET,NOUN",NOUN,say of,1,0,0,0,1
+13,State,was offering,"Russia's "" a serious diplomatic path","AUX,VERB",NOUN,"PROPN,PART,PUNCT,DET,ADJ,ADJ,NOUN",be offer,0,0,1,0,1
+17,Sergei Lavrov,said,President Vladimir Putin,VERB,"PROPN,PROPN","PROPN,PROPN,PROPN",say,0,0,0,0,1
+18,President Vladimir Putin,would now assess,Secretary,"AUX,ADV,VERB","PROPN,PROPN,PROPN",PROPN,would now assess,0,1,1,0,1
+19,Secretary,of,the document,ADP,PROPN,"DET,NOUN",of,1,0,0,0,0
+20,the document,delivered by,the US,"VERB,ADP","DET,NOUN","DET,PROPN",deliver by,1,0,0,0,1
+21,the US,in,coordination,ADP,"DET,PROPN",NOUN,in,1,0,0,0,0
+22,coordination,with,the Nato military alliance,ADP,NOUN,"DET,PROPN,ADJ,NOUN",with,1,0,0,0,0
+23,The US,in,coordination,ADP,"DET,PROPN",NOUN,in,1,0,0,0,0
+24,coordination,with,the Nato military alliance,ADP,NOUN,"DET,PROPN,ADJ,NOUN",with,1,0,0,0,0
+25,the Nato military alliance,does address,"Russia's "" main concern","AUX,VERB","DET,PROPN,ADJ,NOUN","PROPN,PART,PUNCT,ADJ,NOUN",do address,0,0,1,0,1
+26,"Russia's "" main concern",about,the Nato military alliance expansion,ADP,"PROPN,PART,PUNCT,ADJ,NOUN","DET,PROPN,ADJ,NOUN,NOUN",about,1,0,0,0,0
+29,Sergei Lavrov,said delivered by,the US,"AUX,VERB,ADP","PROPN,PROPN","DET,PROPN",said deliver by,1,0,1,0,1
+30,the US,in,coordination,ADP,"DET,PROPN",NOUN,in,1,0,0,0,0
+32,the Nato military alliance,said delivered by in with gives,hope,"AUX,VERB,ADP,ADV,ADP,NOUN","DET,PROPN,ADJ,NOUN",NOUN,said deliver by in with give,1,1,1,1,1
+33,hope,for,the start,ADP,NOUN,"DET,NOUN",for,1,0,0,0,0
+34,the start,of,a serious conversation,ADP,"DET,NOUN","DET,ADJ,NOUN",of,1,0,0,0,0
+35,a serious conversation,on,secondary questions,ADP,"DET,ADJ,NOUN","ADJ,NOUN",on,1,0,0,0,0
+36,President Vladimir Putin spokesman Dmitry Peskov,meanwhile told,reporters,"ADV,VERB","PROPN,PROPN,PROPN,NOUN,PROPN,PROPN",NOUN,meanwhile tell,0,1,0,0,1
+38,Russia,would rush into,assessments,"AUX,VERB,ADP",PROPN,NOUN,would rush into,1,0,1,0,1
+39,assessments,saying,it,VERB,NOUN,PRON,say,0,0,0,0,1
+40,it,would take,time,"AUX,VERB",PRON,NOUN,would take,0,0,1,0,1
+41,time,delivered by,the US,"VERB,ADP",NOUN,"DET,PROPN",deliver by,1,0,0,0,1
+42,the US,in,coordination,ADP,"DET,PROPN",NOUN,in,1,0,0,0,0
+43,coordination,with,the Nato military alliance,ADP,NOUN,"DET,PROPN,ADJ,NOUN",with,1,0,0,0,0
+44,Russia,had issued,a written list,"AUX,VERB",PROPN,"DET,VERB,NOUN",have issue,0,0,1,0,1
+45,a written list,written of,Russia's concerns,"VERB,ADP","DET,VERB,NOUN","PROPN,PART,NOUN",write of,1,0,0,0,1
+46,Russia's concerns,about,the expansion,ADP,"PROPN,PART,NOUN","DET,NOUN",about,1,0,0,0,0
+47,the expansion,of,the Nato military alliance,ADP,"DET,NOUN","DET,PROPN,ADJ,NOUN",of,1,0,0,0,0
+49,its concerns,about,the expansion,ADP,"PRON,NOUN","DET,NOUN",about,1,0,0,0,0
+50,the expansion,of,Nato,ADP,"DET,NOUN",PROPN,of,1,0,0,0,0
+52,related security issues,related was,a demand,"VERB,AUX","ADJ,NOUN,NOUN","DET,NOUN",relate be,0,0,1,0,1
+53,a demand,for,the Nato military alliance,ADP,"DET,NOUN","DET,PROPN,ADJ,NOUN",for,1,0,0,0,0
+54,the Nato military alliance,rule out,the possibility,"VERB,ADP","DET,PROPN,ADJ,NOUN","DET,NOUN",rule out,1,0,0,0,1
+55,the possibility,of,its neighbour,ADP,"DET,NOUN","PRON,NOUN",of,1,0,0,0,0
+57,others,ever joining,the Nato military alliance,"ADV,VERB",NOUN,"DET,PROPN,ADJ,NOUN",ever join,0,1,0,0,1
+59,Russia,has been,something,"AUX,VERB",PROPN,PRON,have be,0,0,1,0,1
+61,Western countries,have seen as,preparation,"AUX,VERB,ADP","ADJ,NOUN",NOUN,have see as,1,0,1,0,1
+62,preparation,for,a possible invasion large numbers,ADP,NOUN,"DET,ADJ,NOUN,ADJ,NOUN",for,1,0,0,0,0
+63,a possible invasion large numbers,of,troops,ADP,"DET,ADJ,NOUN,ADJ,NOUN",NOUN,of,1,0,0,0,0
+64,troops,on,the its neighbour border,ADP,NOUN,"DET,PRON,ADJ,NOUN",on,1,0,0,0,0
+67,Western countries,have seen as,preparation,"AUX,VERB,ADP","ADJ,NOUN",NOUN,have see as,1,0,1,0,1
+69,Russia,denies,a possible invasion,VERB,PROPN,"DET,ADJ,NOUN",deny,0,0,0,0,1
+70,State,said delivered by,the US,"AUX,VERB,ADP",NOUN,"DET,PROPN",said deliver by,1,0,1,0,1
+71,the US,in,coordination,ADP,"DET,PROPN",NOUN,in,1,0,0,0,0
+72,coordination,with,the Nato military alliance,ADP,NOUN,"DET,PROPN,ADJ,NOUN",with,1,0,0,0,0
+73,the Nato military alliance,made,"The US "" core principles",VERB,"DET,PROPN,ADJ,NOUN","DET,PROPN,PUNCT,ADJ,NOUN",make,0,0,0,0,1
+74,"The US "" core principles",including,its neighbour sovereignty,VERB,"DET,PROPN,PUNCT,ADJ,NOUN","PRON,ADJ,NOUN",include,0,0,0,0,1
+76,its neighbour right,choose be,part,"VERB,VERB","PRON,NOUN,NOUN",NOUN,choose be,0,0,0,0,1
+77,part,of,security alliances,ADP,NOUN,"NOUN,NOUN",of,1,0,0,0,0
+78,security alliances,as,the Nato military alliance,ADP,"NOUN,NOUN","DET,PROPN,ADJ,NOUN",as,1,0,0,0,0
+79,no doubt,about,The US seriousness,ADP,"ADV,ADV","DET,PROPN,NOUN",about,1,0,0,0,0
+80,The US seriousness,of,purpose,ADP,"DET,PROPN,NOUN",NOUN,of,1,0,0,0,0
+82,it,comes to,diplomacy,"VERB,ADP",PRON,NOUN,come to,1,0,0,0,1
+84,The US're,acting with,equal focus,"VERB,ADP","DET,NOUN","ADJ,NOUN",act with,1,0,0,0,1
+86,force,bolster to,its neighbour defences,"VERB,ADP",NOUN,"PRON,ADJ,NOUN",bolster to,1,0,0,0,1
+87,its neighbour defences,prepare,a swift united response,VERB,"PRON,ADJ,NOUN","DET,ADJ,ADJ,NOUN",prepare,0,0,0,0,1
+89,further Russian aggression,of,State,ADP,"ADJ,ADJ,NOUN",NOUN,of,1,0,0,0,0
+90,Russia,had issued,a written list,"AUX,VERB",PROPN,"DET,VERB,NOUN",have issue,0,0,1,0,1
+91,a written list,written of,Russia'its concerns,"VERB,ADP","DET,VERB,NOUN","NOUN,NOUN",write of,1,0,0,0,1
+92,Russia'its concerns,about,the expansion,ADP,"NOUN,NOUN","DET,NOUN",about,1,0,0,0,0
+93,the expansion,of,the Nato military alliance,ADP,"DET,NOUN","DET,PROPN,ADJ,NOUN",of,1,0,0,0,0
+95,its concerns,about,the expansion,ADP,"PRON,NOUN","DET,NOUN",about,1,0,0,0,0
+96,the expansion,of,Nato,ADP,"DET,NOUN",PROPN,of,1,0,0,0,0
+98,related security issues,related was,a demand,"VERB,AUX","ADJ,NOUN,NOUN","DET,NOUN",relate be,0,0,1,0,1
+99,a demand,for,the Nato military alliance,ADP,"DET,NOUN","DET,PROPN,ADJ,NOUN",for,1,0,0,0,0
+100,the Nato military alliance,rule out,the possibility,"VERB,ADP","DET,PROPN,ADJ,NOUN","DET,NOUN",rule out,1,0,0,0,1
+101,the possibility,of,its neighbour,ADP,"DET,NOUN","PRON,NOUN",of,1,0,0,0,0
+103,others,ever joining,the Nato military alliance,"ADV,VERB",NOUN,"DET,PROPN,ADJ,NOUN",ever join,0,1,0,0,1
+105,Russia,has been amassing,large numbers,"AUX,AUX,VERB",PROPN,"ADJ,NOUN",have be amass,0,0,1,0,1
+106,large numbers,of,troops,ADP,"ADJ,NOUN",NOUN,of,1,0,0,0,0
+107,troops,on,the its neighbour border,ADP,NOUN,"DET,PRON,ADJ,NOUN",on,1,0,0,0,0
+110,Western countries,have seen as,preparation,"AUX,VERB,ADP","ADJ,NOUN",NOUN,have see as,1,0,1,0,1
+111,preparation,for,a possible invasion,ADP,NOUN,"DET,ADJ,NOUN",for,1,0,0,0,0
+112,Russia,denies,a possible invasion,VERB,PROPN,"DET,ADJ,NOUN",deny,0,0,0,0,1
+113,State,said delivered by,the US,"AUX,VERB,ADP",NOUN,"DET,PROPN",said deliver by,1,0,1,0,1
+114,the US,in,coordination,ADP,"DET,PROPN",NOUN,in,1,0,0,0,0
+115,coordination,with,the Nato military alliance,ADP,NOUN,"DET,PROPN,ADJ,NOUN",with,1,0,0,0,0
+116,the Nato military alliance,made,"clear, Ukraine's sovereignty",VERB,"DET,PROPN,ADJ,NOUN","ADJ,PUNCT,PROPN,PART,NOUN",make,0,0,0,0,1
+118,its neighbour right,choose be,part,"VERB,VERB","PRON,NOUN,NOUN",NOUN,choose be,0,0,0,0,1
+119,part,of,security alliances,ADP,NOUN,"NOUN,NOUN",of,1,0,0,0,0
+120,security alliances,as,the Nato military alliance,ADP,"NOUN,NOUN","DET,PROPN,ADJ,NOUN",as,1,0,0,0,0
+121,no doubt,about,The US seriousness,ADP,"ADV,ADV","DET,PROPN,NOUN",about,1,0,0,0,0
+122,The US seriousness,of,purpose,ADP,"DET,PROPN,NOUN",NOUN,of,1,0,0,0,0
+124,it,comes to,diplomacy,"VERB,ADP",PRON,NOUN,come to,1,0,0,0,1
+126,The US're,acting with,equal focus,"VERB,ADP","DET,NOUN","ADJ,NOUN",act with,1,0,0,0,1
+128,force,bolster to,its neighbour defences,"VERB,ADP",NOUN,"PRON,ADJ,NOUN",bolster to,1,0,0,0,1
+129,its neighbour defences,prepare,a swift united response,VERB,"PRON,ADJ,NOUN","DET,ADJ,ADJ,NOUN",prepare,0,0,0,0,1
+131,further Russian aggression,of,State,ADP,"ADJ,ADJ,NOUN",NOUN,of,1,0,0,0,0

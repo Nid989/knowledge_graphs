@@ -1,0 +1,134 @@
+index,source,relation,target,POS_tag_relation,POS_tag_source,POS_tag_target,Lemma_relation,relation_ADP,relation_ADV,relation_AUX,relation_NOUN,relation_VERB,weight
+0,Nidhir,completed,four years,VERB,PROPN,"NUM,NOUN",complete,0,0,0,0,1,4
+1,four years,of,undergraduate study,ADP,"NUM,NOUN","ADJ,NOUN",of,1,0,0,0,0,10
+2,undergraduate study,in,the computer science honors program,ADP,"ADJ,NOUN","DET,NOUN,NOUN,NOUN,NOUN",in,1,0,0,0,0,3
+3,the computer science honors program,at,XYZ University,ADP,"DET,NOUN,NOUN,NOUN,NOUN","PROPN,PROPN",at,1,0,0,0,0,5
+4,XYZ University,obtained,a Bachelor ’s degree,VERB,"PROPN,PROPN","DET,PROPN,PROPN,NOUN",obtain,0,0,0,0,1,7
+5,Nidhir,ensured,Nidhir,VERB,PROPN,PROPN,ensure,0,0,0,0,1,4
+6,Nidhir,performed well in,all myself,"VERB,ADV,ADP",PROPN,"DET,PRON",perform well in,1,1,0,0,1,5
+10,Nidhir,in took,a special interest,"ADP,VERB",PROPN,"DET,ADJ,NOUN",in take,1,0,0,0,1,7
+11,a special interest,were,Machine Learning,AUX,"DET,ADJ,NOUN","PROPN,PROPN",be,0,0,1,0,0,8
+16,Nidhir,have always considered of,utmost importance,"AUX,ADV,VERB,ADP",PROPN,"ADJ,NOUN",have always consider of,1,1,1,0,1,9
+17,utmost importance,secured,a stellar record,VERB,"ADJ,NOUN","DET,ADJ,NOUN",secure,0,0,0,0,1,8
+18,a stellar record,at,lab oriented projects,ADP,"DET,ADJ,NOUN","NOUN,VERB,NOUN",at,1,0,0,0,0,2
+20,Nidhir,participated in,multiple research projects,"VERB,ADP",PROPN,"ADJ,NOUN,NOUN",participate in,1,0,0,0,1,2
+21,multiple research projects,ranging from generating,support vector machine algorithms,"VERB,ADP,VERB","ADJ,NOUN,NOUN","NOUN,NOUN,NOUN,NOUN",range from generate,1,0,0,0,1,1
+22,support vector machine algorithms,for evolving,neural networks,"ADP,VERB","NOUN,NOUN,NOUN,NOUN","ADJ,NOUN",for evolve,1,0,0,0,1,0
+23,neural networks,to,multi format image processing,ADP,"ADJ,NOUN","ADJ,NOUN,NOUN,NOUN",to,1,0,0,0,0,8
+24,Nidhir,specifically delved into researched,several neural network algorithms,"ADV,VERB,ADP,VERB",PROPN,"ADJ,ADJ,NOUN,NOUN",specifically delve into research,1,1,0,0,1,9
+25,several neural network algorithms,developed,architectures,VERB,"ADJ,ADJ,NOUN,NOUN",VERB,develop,0,0,0,0,1,8
+26,architectures,significantly reduced,the learning rates,"ADV,VERB",VERB,"DET,NOUN,NOUN",significantly reduce,0,1,0,0,1,8
+27,the learning rates,of,several neural network algorithms,ADP,"DET,NOUN,NOUN","ADJ,ADJ,NOUN,NOUN",of,1,0,0,0,0,7
+28,Nidhir,also worked on,an extra - curricular automated systems research project,"ADV,VERB,ADP",PROPN,"DET,ADJ,ADJ,ADJ,VERB,NOUN,NOUN,NOUN",also work on,1,1,0,0,1,6
+29,an extra - curricular automated systems research project,automated for developing,a deep learning distributed architecture,"VERB,ADP,VERB","DET,ADJ,ADJ,ADJ,VERB,NOUN,NOUN,NOUN","DET,ADJ,NOUN,VERB,NOUN",automate for develop,1,0,0,0,1,2
+30,a deep learning distributed architecture,distributed requires,extremely modest networking requirements,"VERB,VERB","DET,ADJ,NOUN,VERB,NOUN","ADV,ADJ,NOUN,NOUN",distribute require,0,0,0,0,1,9
+31,extremely modest networking requirements,extremely thereby reducing,the load,"ADV,ADV,VERB","ADV,ADJ,NOUN,NOUN","DET,NOUN",extremely thereby reduce,0,1,0,0,1,8
+33,processing times,on,each node,ADP,"NOUN,NOUN","DET,NOUN",on,1,0,0,0,0,6
+34,Nidhir,also investigated how,node specialization,"ADV,VERB,ADV",PROPN,"NOUN,NOUN",also investigate how,0,1,0,0,1,0
+35,node specialization,can boost,overall system performance,"AUX,VERB","NOUN,NOUN","ADJ,NOUN,NOUN",can boost,0,0,1,0,1,2
+36,overall system performance,at,the same time,ADP,"ADJ,NOUN,NOUN","DET,ADJ,NOUN",at,1,0,0,0,0,5
+37,the same time,reducing,the computation time,VERB,"DET,ADJ,NOUN","DET,NOUN,NOUN",reduce,0,0,0,0,1,4
+40,Nidhir,also pursued,other interests,"ADV,VERB",PROPN,"ADJ,NOUN",also pursue,0,1,0,0,1,1
+41,other interests,as,an avid reader,ADP,"ADJ,NOUN","DET,ADJ,NOUN",as,1,0,0,0,0,0
+43,Nidhir,am currently employed as,a ABC,"AUX,ADV,VERB,ADP",PROPN,"DET,PROPN",be currently employ as,1,1,1,0,1,8
+44,a ABC,at,PQR Systems,ADP,"DET,PROPN","PROPN,PROPN",at,1,0,0,0,0,8
+45,Nidhir,have been working on,multi - agent automated distribution systems,"AUX,AUX,VERB,ADP",PROPN,"ADJ,ADJ,ADJ,VERB,NOUN,NOUN",have be work on,1,0,1,0,1,4
+46,multi - agent automated distribution systems,automated,advanced error handling,VERB,"ADJ,ADJ,ADJ,VERB,NOUN,NOUN","ADJ,NOUN,NOUN",automate,0,0,0,0,1,10
+47,advanced error handling,here at,PQR Systems,"ADV,ADP","ADJ,NOUN,NOUN","PROPN,PROPN",here at,1,1,0,0,0,0
+50,Nidhir,have acquired have given,Nidhir,"AUX,VERB,AUX,VERB",PROPN,PROPN,have acquire have give,0,0,1,0,1,10
+52,a pragmatic view,of,the domain,ADP,"DET,ADJ,NOUN","DET,NOUN",of,1,0,0,0,0,10
+53,the domain,have been in driving,Nidhir,"AUX,VERB,ADP,VERB","DET,NOUN",PROPN,have be in drive,1,0,1,0,1,5
+54,Nidhir,towards,Nidhir,ADP,PROPN,PROPN,towards,1,0,0,0,0,7
+56,application,for,a graduate study,ADP,NOUN,"DET,ADJ,NOUN",for,1,0,0,0,0,3
+57,a graduate study,in,Artificial Intelligence,ADP,"DET,ADJ,NOUN","PROPN,PROPN",in,1,0,0,0,0,9
+59,enthusiasm,in,the domain,ADP,NOUN,"DET,NOUN",in,1,0,0,0,0,5
+61,Nidhir,have always remained on,the lookout,"AUX,ADV,VERB,ADP",PROPN,"DET,NOUN",have always remain on,1,1,1,0,1,6
+62,the lookout,advance,Nidhir,NOUN,"DET,NOUN",PROPN,advance,0,0,0,1,0,10
+65,grasp,on,the domain,ADP,NOUN,"DET,NOUN",on,1,0,0,0,0,9
+66,Nidhir,has always been on combining,theory,"AUX,ADV,VERB,ADP,VERB",PROPN,NOUN,have always be on combine,1,1,1,0,1,8
+67,theory,with,theory practical applications,ADP,NOUN,"ADJ,ADJ,NOUN",with,1,0,0,0,0,0
+68,Nidhir,am in,evolutionary methods,"AUX,ADP",PROPN,"ADJ,NOUN",be in,1,0,1,0,0,0
+69,evolutionary methods,for developing,intelligent recognition,"ADP,VERB","ADJ,NOUN","ADJ,NOUN",for develop,1,0,0,0,1,7
+70,Nidhir,am particularly in,the interaction,"AUX,ADV,ADP",PROPN,"DET,NOUN",be particularly in,1,1,1,0,0,4
+71,the interaction,of,multi - factor systems,ADP,"DET,NOUN","ADJ,ADJ,ADJ,NOUN",of,1,0,0,0,0,9
+73,Nidhir,am constantly to out,even new techniques,"AUX,ADV,ADP,ADP",PROPN,"ADV,ADJ,NOUN",be constantly to out,1,1,1,0,0,5
+74,even new techniques,even even improves,the performance,"ADV,ADV,VERB","ADV,ADJ,NOUN","DET,NOUN",even even improve,0,1,0,0,1,8
+75,Nidhir,am of,Science,"AUX,ADP",PROPN,NOUN,be of,1,0,1,0,0,9
+76,Science,in,Artificial Intelligence,ADP,NOUN,"PROPN,PROPN",in,1,0,0,0,0,0
+77,Artificial Intelligence,offered at,the University,"VERB,ADP","PROPN,PROPN","DET,PROPN",offer at,1,0,0,0,1,8
+78,the University,of,ABC,ADP,"DET,PROPN",PROPN,of,1,0,0,0,0,6
+79,ABC,will allow,Nidhir,"AUX,VERB",PROPN,PROPN,will allow,0,0,1,0,1,8
+80,Nidhir,in enhancing,Nidhir,"ADP,VERB",PROPN,PROPN,in enhance,1,0,0,0,1,9
+82,understanding,of,the domain,ADP,NOUN,"DET,NOUN",of,1,0,0,0,0,9
+83,the domain,to,a great extent,ADP,"DET,NOUN","DET,ADJ,NOUN",to,1,0,0,0,0,8
+84,Professors,as,tuv,ADP,NOUN,DET,as,1,0,0,0,0,9
+86,lmn,have been doing,exemplary work,"AUX,AUX,VERB",NOUN,"ADJ,NOUN",have be do,0,0,1,0,1,5
+87,exemplary work,in,the domain,ADP,"ADJ,NOUN","DET,NOUN",in,1,0,0,0,0,2
+89,it,will be,a great opportunity,"AUX,VERB",PRON,"DET,ADJ,NOUN",will be,0,0,1,0,1,1
+90,a great opportunity,be guided by,Professors,"AUX,VERB,ADP","DET,ADJ,NOUN",NOUN,be guide by,1,0,1,0,1,5
+91,Professors,as,tuv,ADP,NOUN,DET,as,1,0,0,0,0,7
+93,Nidhir,strongly believe,the curriculum,"ADV,VERB",PROPN,"DET,NOUN",strongly believe,0,1,0,0,1,7
+96,peer group,make,the University,VERB,"NOUN,NOUN","DET,PROPN",make,0,0,0,0,1,1
+97,the University,of,ABC,ADP,"DET,PROPN",PROPN,of,1,0,0,0,0,5
+98,ABC,of,innovation,ADP,PROPN,NOUN,of,1,0,0,0,0,1
+99,innovation,will allow,Nidhir,"AUX,VERB",NOUN,PROPN,will allow,0,0,1,0,1,5
+100,Nidhir,apply to,Nidhir,"VERB,ADP",PROPN,PROPN,apply to,1,0,0,0,1,0
+103,interest,for,research,ADP,NOUN,NOUN,for,1,0,0,0,0,3
+104,research,bring,fruition,VERB,NOUN,NOUN,bring,0,0,0,0,1,8
+107,The attraction,of,any field,ADP,"DET,NOUN","DET,NOUN",of,1,0,0,0,0,4
+108,any field,lies in,the depth,"VERB,ADP","DET,NOUN","DET,NOUN",lie in,1,0,0,0,1,9
+109,the depth,as well as,breadth,"ADV,ADV,ADP","DET,NOUN",NOUN,as well as,1,1,0,0,0,8
+110,breadth,of,any field applicability,ADP,NOUN,"DET,NOUN,NOUN",of,1,0,0,0,0,6
+111,Nidhir,believe being at,the University,"VERB,VERB,ADP",PROPN,"DET,PROPN",believe be at,1,0,0,0,1,3
+112,the University,of,ABC,ADP,"DET,PROPN",PROPN,of,1,0,0,0,0,0
+113,ABC,will allow,Nidhir,"AUX,VERB",PROPN,PROPN,will allow,0,0,1,0,1,9
+114,Nidhir,soak in contribute to,the broad spectrum,"VERB,ADP,NOUN,ADP",PROPN,"DET,ADJ,NOUN",soak in contribute to,1,0,0,1,1,2
+115,the broad spectrum,of,applications,ADP,"DET,ADJ,NOUN",NOUN,of,1,0,0,0,0,8
+116,applications,exist within,the realm,"VERB,ADP",NOUN,"DET,NOUN",exist within,1,0,0,0,1,9
+117,the realm,of,artificial intelligence,ADP,"DET,NOUN","ADJ,NOUN",of,1,0,0,0,0,4
+118,Nidhir,also believe,a two - year Masters Degree program,"ADV,VERB",PROPN,"DET,NUM,PUNCT,NOUN,PROPN,PROPN,NOUN",also believe,0,1,0,0,1,0
+119,a two - year Masters Degree program,in,Computer Science,ADP,"DET,NUM,PUNCT,NOUN,PROPN,PROPN,NOUN","PROPN,PROPN",in,1,0,0,0,0,9
+120,Computer Science,allows for,a flexible approach,"VERB,ADP","PROPN,PROPN","DET,ADJ,NOUN",allow for,1,0,0,0,1,3
+121,a flexible approach,aids,one ’s growth,NOUN,"DET,ADJ,NOUN","NUM,PART,NOUN",aid,0,0,0,1,0,2
+122,one ’s growth,as,a professional,ADP,"NUM,PART,NOUN","DET,ADJ",as,1,0,0,0,0,6
+123,Nidhir,hope,Nidhir,NOUN,PROPN,PROPN,hope,0,0,0,1,0,3
+124,Nidhir,will be contribute to,ground - breaking research work,"AUX,AUX,VERB,ADP",PROPN,"NOUN,PUNCT,VERB,NOUN,NOUN",will be contribute to,1,0,1,0,1,7
+125,ground - breaking research work,breaking in,the areas,"VERB,ADP","NOUN,PUNCT,VERB,NOUN,NOUN","DET,NOUN",break in,1,0,0,0,1,1
+126,the areas,of,AI,ADP,"DET,NOUN",NOUN,of,1,0,0,0,0,4
+128,systems,at,the University,ADP,NOUN,"DET,PROPN",at,1,0,0,0,0,3
+129,the University,of,ABC,ADP,"DET,PROPN",PROPN,of,1,0,0,0,0,2
+130,Nidhir,plan fully utilize,the flexibility,"NOUN,ADV,VERB",PROPN,"DET,NOUN",plan fully utilize,0,1,0,1,1,5
+131,the flexibility,at,the University,ADP,"DET,NOUN","DET,PROPN",at,1,0,0,0,0,10
+132,the University,of,ABC,ADP,"DET,PROPN",PROPN,of,1,0,0,0,0,2
+134,studies,at,the University,ADP,NOUN,"DET,PROPN",at,1,0,0,0,0,1
+135,the University,of,ABC,ADP,"DET,PROPN",PROPN,of,1,0,0,0,0,1
+137,Nidhir,plan join to,the rapidly flourishing job market,"NOUN,VERB,ADP",PROPN,"DET,ADV,VERB,NOUN,NOUN",plan join to,1,0,0,1,1,5
+138,the rapidly flourishing job market,rapidly flourishing for,professionals,"ADV,VERB,ADP","DET,ADV,VERB,NOUN,NOUN",NOUN,rapidly flourish for,1,1,0,0,1,4
+139,professionals,having,expertise,VERB,NOUN,NOUN,have,0,0,0,0,1,2
+140,expertise,in,advanced concepts,ADP,NOUN,"ADJ,NOUN",in,1,0,0,0,0,1
+141,advanced concepts,related,Artificial intelligence,VERB,"ADJ,NOUN","ADJ,NOUN",relate,0,0,0,0,1,6
+142,Artificial intelligence,across,the globe,ADP,"ADJ,NOUN","DET,NOUN",across,1,0,0,0,0,3
+143,The worlds,of,business,ADP,"DET,NOUN",NOUN,of,1,0,0,0,0,2
+145,technology,are rapidly embracing,Artificial Intelligence,"AUX,ADV,VERB",NOUN,"PROPN,PROPN",be rapidly embrace,0,1,1,0,1,2
+147,the Masters degree,will only open,professional paths,"AUX,ADV,VERB","DET,PROPN,NOUN","ADJ,NOUN",will only open,0,1,1,0,1,8
+148,professional paths,might also eventually enable,Nidhir,"AUX,ADV,ADV,VERB","ADJ,NOUN",PROPN,might also eventually enable,0,1,1,0,1,4
+149,Nidhir,build to,Nidhir,"VERB,ADP",PROPN,PROPN,build to,1,0,0,0,1,9
+152,Nidhir,might also end up deploying,Nidhir,"AUX,ADV,VERB,ADP,VERB",PROPN,PROPN,might also end up deploy,1,1,1,0,1,3
+154,skillsets,to,new and innovative areas,ADP,NOUN,"ADJ,CCONJ,ADJ,NOUN",to,1,0,0,0,0,10
+155,new and innovative areas,probably also strike out on,the entrepreneurial path,"ADV,ADV,VERB,ADP,ADP","ADJ,CCONJ,ADJ,NOUN","DET,ADJ,NOUN",probably also strike out on,1,1,0,0,1,1
+157,experiences,have molded,Nidhir,"AUX,VERB",NOUN,PROPN,have mold,0,0,1,0,1,6
+158,Nidhir,into,what,ADP,PROPN,PRON,into,1,0,0,0,0,1
+160,Nidhir,is,the Masters degree,AUX,PROPN,"DET,PROPN,NOUN",be,0,0,1,0,0,1
+161,the Masters degree,will give,shape,"AUX,VERB","DET,PROPN,NOUN",NOUN,will give,0,0,1,0,1,1
+162,shape,to,Nidhir,ADP,NOUN,PROPN,to,1,0,0,0,0,4
+163,Nidhir,envision,Nidhir,NOUN,PROPN,PROPN,envision,0,0,0,1,0,4
+164,Nidhir,look at,this application,"VERB,ADP",PROPN,"DET,NOUN",look at,1,0,0,0,1,4
+165,this application,as,a hope,ADP,"DET,NOUN","DET,NOUN",as,1,0,0,0,0,7
+166,a hope,pursue to,Nidhir,"VERB,ADP","DET,NOUN",PROPN,pursue to,1,0,0,0,1,9
+169,skills,in,the company,ADP,NOUN,"DET,NOUN",in,1,0,0,0,0,9
+170,the company,of,people,ADP,"DET,NOUN",NOUN,of,1,0,0,0,0,9
+171,people,with,whom,ADP,NOUN,PRON,with,1,0,0,0,0,2
+173,Nidhir,can contribute,new ideas,"AUX,VERB",PROPN,"ADJ,NOUN",can contribute,0,0,1,0,1,7
+174,new ideas,discuss,theories,VERB,"ADJ,NOUN",NOUN,discuss,0,0,0,0,1,2
+175,theories,make,an impact,VERB,NOUN,"DET,NOUN",make,0,0,0,0,1,7
+176,an impact,in,the long run,ADP,"DET,NOUN","DET,ADJ,NOUN",in,1,0,0,0,0,0
