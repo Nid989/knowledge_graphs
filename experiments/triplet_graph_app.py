@@ -1,6 +1,3 @@
-from ctypes import sizeof
-from random import sample
-from turtle import color
 from streamlit_agraph import agraph, Config, TripleStore
 import streamlit as st
 import pandas as pd
