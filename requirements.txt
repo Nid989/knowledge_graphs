@@ -12,4 +12,3 @@ pandas==1.0.5
 pyvis==0.1.9
 streamlit==1.4.0
 streamlit_agraph==0.0.37
-incertstore==0.2.1
