@@ -5,7 +5,7 @@ import pandas as pd
 # store = TripleStore()
 
 # Read dataset (CSV)
-df = pd.read_csv('data\data_v2.csv')
+df = pd.read_csv('data/data_v2.csv')
 
 # Set header title
 st.title('Network Graph Visualization of Collegium Knowledge Graphs')
