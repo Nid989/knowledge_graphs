@@ -10,7 +10,6 @@ numpy==1.18.5
 ordereddict==1.1
 pandas==1.0.5
 pyvis==0.1.9
-pywin32==227
 streamlit==1.4.0
 streamlit_agraph==0.0.37
-wincertstore==0.2.1
+incertstore==0.2.1
